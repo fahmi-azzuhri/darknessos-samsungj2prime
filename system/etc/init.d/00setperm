@@ -1,0 +1,6 @@
+#!/system/bin/sh
+
+mount -o remount,rw /system
+chmod 777 /system/etc/init.d/*
+mount -o remount,ro /system
+
